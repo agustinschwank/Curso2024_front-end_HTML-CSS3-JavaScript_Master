@@ -1,0 +1,31 @@
+Metodologia BEM
+
+Es una forma de nombrar las clases.
+
+BEM = Bloque Elemento Modificador
+
+Se utilizan simpre clases no ID.
+
+Clases = Modificar estilos
+
+ID = Utiliza con JS (JavasCript)
+
+Ejemplo:
+
+1. bloque
+2. bloque__elemento
+3. bloque__elemento--modificador
+
+
+<div clases="cards">
+
+    <div class="cards__card">
+        <h3 class="card__title card__title--red">Titulo Primera Tarjeta</h3>
+    </div>
+
+
+    <div class="cards__card">
+        <h3 class="card__title--underline card__title--blue">Titulo Segunda Tarjeta</h3>
+    </div>
+
+</div>
