@@ -26,3 +26,4 @@
 17. En un nuevo sitio web nos solicitan crear un enlace a un sitio web que se abra en una pestaña nueva. Además, realiza otro enlace al ejercicio 1 realizado en clases anteriores.
 18. Desarrolla un menú de navegación con 5 enlaces que lleven al usuario a ejercicios anteriores.
 19. En un sitio agrega un h1, este debe tener un identificador. Luego agrega un párrafo con mucho texto. Debajo de este agrega un enlace que al hacer clic en este lleve al usuario nuevamente al h1.
+20. De una clinica odontologica, nos solicitaron que desarrollemos una planilla donde muestre los pacientes que se atenderan en el dia. Estas planilla contiene los datos del paciente: nombre, apellido y edad. Si un paciente no tiene determinada su edad esta debera ocupar dos filas.
