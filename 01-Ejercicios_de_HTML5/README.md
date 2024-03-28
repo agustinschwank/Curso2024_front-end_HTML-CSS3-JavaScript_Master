@@ -27,4 +27,5 @@
 18. Desarrolla un menú de navegación con 5 enlaces que lleven al usuario a ejercicios anteriores.
 19. En un sitio agrega un h1, este debe tener un identificador. Luego agrega un párrafo con mucho texto. Debajo de este agrega un enlace que al hacer clic en este lleve al usuario nuevamente al h1.
 20. De una clinica odontologica, nos solicitaron que desarrollemos una planilla donde muestre los pacientes que se atenderan en el dia. Estas planilla contiene los datos del paciente: nombre, apellido y edad. Si un paciente no tiene determinada su edad esta debera ocupar dos filas.
-21. Desarolla un formulario, que tenga una entrada de tipo texto, y un boton para el envio de la informacion
+21. Desarolla un formulario, que tenga una entrada de tipo texto, y un boton para el envio de la informacion.
+22. De un nogocio local nos solicitan que le desarollen un formulario para que completen sus clientes. Nos dicen que se requiere: usuario, email, contraseña, un capo para seleccionar el genero, si es una persona jubilada o no, numero de cliente, fecha de nacimiento, color favorito y por ultimpo un campo donde el cliente pueda dejar una descripcion si lo desea. Todos los campos deben estar dentro de un FIELDSET y utilizar en campo LEGEND. Nota: todos los campos deben tener un label.

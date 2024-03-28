@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 22</title>
+</head>
+<body>
+    <h1>Formulario de Cliente</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Ingrese sus datos basicos</legend>
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario"/>
+            <br/><br/>
+            <label for="numberclient">Numero de cliente:</label>
+            <input type="number" id="numberclient" name="numberclient"/>
+            <br/><br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/>
+            <br/><br/>
+            <label for="pass">Contaseña:</label>
+            <input type="password" id="pass" name="password"/>
+            <br/><br/>
+        </fieldset>
+        <fieldset>
+            <legend>Que tipo de persona eres</legend>
+            <input type="radio" id="menor" name="rangoetario"/>
+            <label for="menor">Menor de 18</label>
+            <input type="radio" id="mayor" name="rangoetario"/>
+            <label for="mayor">Mayor o igual a 18</label>
+            <input type="radio" id="jubilado" name="rangoetario"/>
+            <label for="jubilado">Jubilado</label>
+        </fieldset>
+        <fieldset>
+            <legend>Con que tipo de genero se identifica</legend>
+            <label for="genero">Sleccione el que mas se adecue</label>
+            <select>
+                <option selected disabled>Seleccione genero</option>
+                <option>Femenino</option>
+                <option>Masculino</option>
+                <option>Otro</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Sube tu archivo</legend>
+            <label for="file">Seleccione tu archivo</label>
+            <input type="file" name="file" id="file"/>
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos de intereses</legend>
+            <label for="fecha">Ingrese su fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha"/>
+            <br/>
+            <label for="color">Su color favorito</label>
+            <input type="color" name="color" id="color"/>
+        </fieldset>
+        <fieldset>
+            <legend>Hay algun dato que nos quiera aportar</legend>
+            <label for="datos">Ingrese si cree necesario comentarnos algo</label><br/>
+            <textarea name="datos" id="datos" rows="5" cols="40">Ingrese...</textarea>
+        </fieldset>
+        <br/>
+        <input type="submit" value="ENVIAR DATOS"/>
+    </form>
+</body>
+</html>
