@@ -1,6 +1,7 @@
 # Ignora archivos del sistema
 
 # Carpetas Ignoradas
+01-Ejercicios_de_HTML5/utilities/*
 
 # Ignorar archivos de texto
 
