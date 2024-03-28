@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 23</title>
+</head>
+<body>
+    <h1>Formulario Empresa Telefonica</h1>
+
+    <form action="#" method="GET">
+        <!--telefono, hora, lista de datos y una barra de progreso -->
+        <div>
+            <label for="telefono">Ingrese su numero telefonico:</label>
+            <input type="tel" name="telefono" id="telefono"/>
+        </div>
+        <br/>
+        <div>
+            <label for="horario">Hora aproximada de la falla:</label>
+            <input type="time" name="horario" id="horario"/>
+        </div>
+        <br/>
+        <div>
+            <label for="plan">Indicanos tu plan telefonico:</label>
+            <input list="plan" name="plan"/>
+            <datalist id="plan">
+                <option value="Basico">Plan de 5Gb de datos con llamadas nacionales</option>
+                <option value="Profesional">Plan de 15Gb de datos con llamadas nacionales e internacionales pagas</option>
+                <option value="Enterprice">Plan 5 lineas de 25Gb de datos con llamadas nacionales</option>
+                <option value="Business">Plan lineas y GB de datos ilimitados con llamadas nacionales e internacionales</option>
+            </datalist>
+        </div>
+        <br/>
+        <div>
+            <label for="rango">Nos recomendarias a tus amigos:</label>
+            <input type="range" id="rango" min="1" max="10" value="1" name="rango"/>
+        </div>
+        <br/>
+        <input type="submit" value="ENVIAR"/>
+        <input type="reset" value="LIMPIAR FORMULARIO"/>
+    </form>
+</body>
+</html>
