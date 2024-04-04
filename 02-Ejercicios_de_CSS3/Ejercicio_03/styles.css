@@ -1,0 +1,26 @@
+body {
+    background-color: aliceblue;
+}
+
+article h2 {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+article a {
+    font-size: 18px;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration:line-through;
+}
+
+article p {
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #ccc;
+    padding: 5px;
+}

@@ -1,0 +1,130 @@
+* {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.layout {
+    background-color: #FF5BAE;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    background-color: transparent;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 10px 20px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
+}
+
+.main__user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E72929;
+    padding: 5rem 7rem;
+}
+
+.user__container--img {
+    width: 100px;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.user__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.user__info {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.user__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFF7FC;
+    margin-bottom: 1rem;
+}
+
+.user_nick {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.user__country {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+.main__follows {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.follows__follow,
+.follows__posts,
+.follows__likes {
+    display: block;
+    padding: 1rem;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.follows__follow:hover,
+.follows__posts:hover,
+.follows__likes:hover {
+    border: 3px solid #ccc;
+}
+
+.follow__number,
+.posts__number,
+.likes__number {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.follow__subtitle,
+.posts__subtitle,
+.likes__subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ccc;
+}
