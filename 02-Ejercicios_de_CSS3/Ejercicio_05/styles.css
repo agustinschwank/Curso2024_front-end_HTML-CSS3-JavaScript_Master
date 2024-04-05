@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: aliceblue;
+}
+
+.layout {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+#layout__title {
+    font-size: 34px;
+    padding: calc(34px/2);
+    color: #ffffff;
+    background-color: #444444;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/*
+#layout__articles {
+    width: 50%;
+    margin: 0 auto;
+}*/
+
+.articles__article {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.article__title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.article__text {
+    font-size: 14px;
+}
