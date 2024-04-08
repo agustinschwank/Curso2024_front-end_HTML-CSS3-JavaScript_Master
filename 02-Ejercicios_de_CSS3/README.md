@@ -15,4 +15,4 @@
     - Titulo Principal: "Blog de Notcias", fondo gris oscuro, tamaño de letra 34px, el margen interior debe tener la mitad del tamaño de letra.
     - Articulos: borde fino, margen interior de 10px, con margen superior de 30px
     - Titulos: Letra en negrita, texto centrado, tamaño de 20px y subrayado.
-6. 
+6. Maquete el sitio lo mas parecido posible a la fig. 4
