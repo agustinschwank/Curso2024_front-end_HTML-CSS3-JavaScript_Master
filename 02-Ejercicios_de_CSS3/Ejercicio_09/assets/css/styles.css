@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Open Sans Interno';
+    src: url(../fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf), "truetype";
+    font-style: normal;
+}
+
+* {
+    text-align: center;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: aliceblue;
+    font-size: 1.6rem;
+}
+
+
+.primer__nivel {
+    font-family: "Roboto";
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.tercer__nivel {
+    font-family: "Open Sans";
+    font-size: 3rem;
+}
+
+
+.sexto_niel {
+    font-family: "Open Sans Interno";
+    font-size: 2rem;
+}

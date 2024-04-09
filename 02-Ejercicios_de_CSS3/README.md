@@ -22,3 +22,6 @@
     - Añade efectos hover con transicion suaves
     - Utilice tipografia general: Sans Serif
 8. Del departamento de diseño, se nos ha enviado el diseño de unas card para agregar a un sitio web. Maquete lo mas paracido posible. Ver: fig. 3
+9. Cargue una fuente externa de forma remota y local.
+    - Encabezado de Primer nivel: roboto y grosor 800
+    - encabezado de Tecer niveL: Open sans
