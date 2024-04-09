@@ -16,3 +16,9 @@
     - Articulos: borde fino, margen interior de 10px, con margen superior de 30px
     - Titulos: Letra en negrita, texto centrado, tamaño de 20px y subrayado.
 6. Maquete el sitio lo mas parecido posible a la fig. 4
+7. Emplea el selector hijo para darle estilos a los hijos de la lista:
+    - Enlace del Menu: color negro, tamaño 20px y sin decoracion
+    - Enlace del Submenu: color rojo, tamaño 17px y sin decoracion
+    - Añade efectos hover con transicion suaves
+    - Utilice tipografia general: Sans Serif
+8. Del departamento de diseño, se nos ha enviado el diseño de unas card para agregar a un sitio web. Maquete lo mas paracido posible. Ver: fig. 3

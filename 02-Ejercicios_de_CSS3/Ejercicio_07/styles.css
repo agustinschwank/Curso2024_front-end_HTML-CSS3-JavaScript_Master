@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background: #cccccc;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 48px;
+    text-align: center;
+}
+
+ul > li > a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li > ul > li > a {
+    font-size: 17px;
+    color: #ff0000;
+}
+
+a {
+    transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+}
+
+a:hover {
+    color: #00f;
+    font-weight: bold;
+}
+
+li > ul > li > a:hover {
+    color: #ffff00;
+}
