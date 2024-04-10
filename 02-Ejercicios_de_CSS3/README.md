@@ -25,3 +25,14 @@
 9. Cargue una fuente externa de forma remota y local.
     - Encabezado de Primer nivel: roboto y grosor 800
     - encabezado de Tecer niveL: Open sans
+10. Se nos a pedido maquetar a partir de un diseño en la Fig. 4, un buscador de hoteles. Se comento que el personal de diseño requiere que el mismo sea lo mas parecido pocible.
+11. Juego de fondos. La web debe tener una imagen de fondo, un patern proporcionado. Ademas: 
+    - Cabezera: Fondo azul, borde fino, espaciado interior de 10px.
+    - Encabezado de Primer nivel: texto blanco
+    - encabezado de Tecer niveL: borde 3 veces mas grueso y de color verde, fondo tomate, margen interior de 10px y texto blanco
+12. El proyecto debe verse como en el diseño de la Fig. 5 y el texto de mayor tamaño deberá ir rotando y mostrar diferentes frases.
+13. Observe la Fig. 6 y modifica los textos de la siguiente forma:
+    - H1: El texto debe estar centrado, con una separación entre líneas de 50px y espacio de letras de 40px.
+    - H3: El texto deberá tener un espacio de 20px entre palabra y palabra, el texto deberá estar centrado.
+    - P: El texto deberá estar justificado, todo en mayúsculas y con un espacio de 10px en la primera frase de cada párrafo.
+14. Maquete el cronometro de la Fig. 7
