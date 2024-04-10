@@ -1,0 +1,116 @@
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: lightblue;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.layout__text {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 7rem;
+    overflow: hidden;
+    height: 7rem;
+}
+
+.text__animation {
+    position: relative;
+    display: block;
+    animation: show 5s ease infinite;
+    -webkit-animation: show 5s ease infinite;
+}
+
+@keyframes show {
+    20% {
+        transform: translateY(0rem);
+        -webkit-transform: translateY(0rem);
+        -moz-transform: translateY(0rem);
+        -ms-transform: translateY(0rem);
+        -o-transform: translateY(0rem);
+    }
+
+    25% {
+        transform: translateY(-7rem);
+        -webkit-transform: translateY(-7rem);
+        -moz-transform: translateY(-7rem);
+        -ms-transform: translateY(-7rem);
+        -o-transform: translateY(-7rem);
+    }
+
+    45% {
+        transform: translateY(-7rem);
+        -webkit-transform: translateY(-7rem);
+        -moz-transform: translateY(-7rem);
+        -ms-transform: translateY(-7rem);
+        -o-transform: translateY(-7rem);
+}
+
+    50% {
+        transform: translateY(-14rem);
+        -webkit-transform: translateY(-14rem);
+        -moz-transform: translateY(-14rem);
+        -ms-transform: translateY(-14rem);
+        -o-transform: translateY(-14rem);
+    }
+
+    65% {
+        transform: translateY(-14rem);
+        -webkit-transform: translateY(-14rem);
+        -moz-transform: translateY(-14rem);
+        -ms-transform: translateY(-14rem);
+        -o-transform: translateY(-14rem);
+}
+
+    70% {
+        transform: translateY(-21rem);
+        -webkit-transform: translateY(-21rem);
+        -moz-transform: translateY(-21rem);
+        -ms-transform: translateY(-21rem);
+        -o-transform: translateY(-21rem);
+    }
+
+    
+    95% {
+        transform: translateY(-21rem);
+        -webkit-transform: translateY(-21rem);
+        -moz-transform: translateY(-21rem);
+        -ms-transform: translateY(-21rem);
+        -o-transform: translateY(-21rem);
+    }
+
+}
+
+.color__white {
+    color: #fff;
+}
+
+.color__red {
+    color: #ff0000;
+}
+
+.color__green {
+    color: #00ff00;
+}
+
+.color__purple {
+    color: #dd22b5;
+}
