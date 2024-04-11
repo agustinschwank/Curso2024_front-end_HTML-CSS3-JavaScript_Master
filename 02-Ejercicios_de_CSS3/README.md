@@ -39,3 +39,4 @@
 15. Crea una web con 2 cajas unicas e irrepetibles. Cada caja debe tener 400px X 400px. Arial, exterior e interior 20px. Una de color azul, la otra de marron. Los textos internos deben estar centrado orizontal y verticalmente con un tamaño de letra de 20px.
 16. Maqueta el sitio de la Fig. 8 (Nota: es un video no una imagen, que seara proporcinado)
 17. Se nos encargo y solicito especificamente crear una web, esto debe de contener 8 articulos, de los cuales debe tener 4 articulos por fila. Ademas se nos expreso que por motivos de la compania la no utilizacion de flexbox o grid.
+18. Maqueta lo mas parecido posible la card de la figura 9
