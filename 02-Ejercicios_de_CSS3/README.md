@@ -40,10 +40,7 @@
 16. Maqueta el Sitio de la Figura 8: Nota: se utilizará un video, no una imagen, que será proporcionado.
 17. Creación de una Web sin Flexbox ni Grid: Se requiere una web con 8 artículos, distribuidos en dos filas de 4 artículos cada una, sin utilizar Flexbox ni Grid.
 18. Maqueta la Card de la Figura 9.
-
 19. Maqueta con Floats: Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página, utilizando únicamente la técnica de floats. Ver Figura 10.
-
 20. Uso de Flexbox y Grid: Crea la misma web del ejercicio anterior, esta vez utilizando Flexbox y Grid según sea conveniente.
-
 21. Aplicación de Bordes Redondeados: Basándote en el ejercicio anterior, aplica bordes redondeados de 50px en la esquina superior derecha y en la esquina inferior izquierda. Consulta la Figura 11.
 22. Maqueta la Propuesta de la Figura 12.
