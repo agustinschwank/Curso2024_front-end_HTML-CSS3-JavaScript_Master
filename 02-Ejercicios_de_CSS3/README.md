@@ -7,25 +7,25 @@
 
 ## Enunciados de Ejercicios
 
-1. Desarrolle un menu de navegacion utilizando HTML. Se pide que el mismo se encuentre escondido en la parte superior de la pagina, y cuando el usuario ingresa a sitio devera ver como rebota el mismo como una pelota de football. Por lo que ejecute una animacion que lo muestre y lo vuelva a ocultar
-2. Crea una tarjeta o card, segun especificaciones o imagen mostrada mostrada, como asi tambien con los archivos proporcionados.
-3. Nos piden crear una web que tenga un encabezado de segundo nivel, un link y un parrafo. El encabezado debe ser blanco con fondo negro y con un margen interior de 10px. El link debe ser rojo, sin subrayado y de 18px de tamaño. El parrafo de color negro, tamaño de 14px y borde fijo. No se deben utilizar ClASES.
-4. Desarrolle un sitio lo mas parecido a la fig. 2
-5. Se no ha especificado que realicemos un proyecto, donde se debe utilizar un SELECTOR DE CLASES para darle estilos ha ARTICULOS Y TITULO de un blog (de prueba). 
-    - Titulo Principal: "Blog de Notcias", fondo gris oscuro, tamaño de letra 34px, el margen interior debe tener la mitad del tamaño de letra.
-    - Articulos: borde fino, margen interior de 10px, con margen superior de 30px
-    - Titulos: Letra en negrita, texto centrado, tamaño de 20px y subrayado.
-6. Maquete el sitio lo mas parecido posible a la fig. 4
-7. Emplea el selector hijo para darle estilos a los hijos de la lista:
-    - Enlace del Menu: color negro, tamaño 20px y sin decoracion
-    - Enlace del Submenu: color rojo, tamaño 17px y sin decoracion
-    - Añade efectos hover con transicion suaves
-    - Utilice tipografia general: Sans Serif
-8. Del departamento de diseño, se nos ha enviado el diseño de unas card para agregar a un sitio web. Maquete lo mas paracido posible. Ver: fig. 3
-9. Cargue una fuente externa de forma remota y local.
-    - Encabezado de Primer nivel: roboto y grosor 800
-    - encabezado de Tecer niveL: Open sans
-10. Se nos a pedido maquetar a partir de un diseño en la Fig. 4, un buscador de hoteles. Se comento que el personal de diseño requiere que el mismo sea lo mas parecido pocible.
+1. Desarrolle un menú de navegación utilizando HTML. Este debe estar inicialmente oculto en la parte superior de la página, y cuando el usuario acceda al sitio, el menú deberá "rebotar" como una pelota de fútbol mediante una animación que lo muestre y luego lo oculte nuevamente.
+2. Crea una tarjeta (card) siguiendo las especificaciones de una imagen proporcionada (figura 1) y utilizando los archivos adjuntos.
+3. Crea una página web que incluya un encabezado de segundo nivel, un enlace y un párrafo. El encabezado debe tener texto blanco con fondo negro y un margen interno de 10px. El enlace debe ser rojo, sin subrayado y de tamaño 18px. El párrafo debe ser de color negro, tamaño de letra de 14px y con borde fijo. No utilices clases para los estilos.
+4. Desarrolla un sitio web lo más parecido posible a la figura 2.
+5. Se nos ha pedido realizar un proyecto que utilice un selector de clases para aplicar estilos a los artículos y títulos de un blog de prueba: 
+    - Titulo Principal: "Blog de Noticias", con fondo gris oscuro, tamaño de letra de 34px y un margen interno que sea la mitad del tamaño de la letra.
+    - Articulos: borde fino, margen interno de 10px y un margen superior de 30px.
+    - Titulos: texto en negrita, centrado, tamaño de 20px y subrayado.
+6. Maqueta el sitio lo más parecido posible a la figura 4.
+7. Utiliza el selector hijo para aplicar estilos a los elementos de una lista:
+    - Enlace del Menú: color negro, tamaño de 20px y sin decoración.
+    - Enlace del Submenú: color rojo, tamaño de 17px y sin decoración.
+    - Añade efectos de hover con transiciones suaves.
+    - Utiliza la tipografía general Sans Serif.
+8. Del departamento de diseño se ha recibido el diseño de unas tarjetas para integrar a un sitio web. Maqueta lo más parecido posible a la figura 3.
+9. Carga una fuente externa de forma remota y local:
+    - Encabezado de Primer Nivel: "Roboto" con grosor 800.
+    - Encabezado de Tercer Nivel: "Open Sans".
+10. Se nos ha pedido maquetar un buscador de hoteles basándonos en un diseño de la Figura 4. Es importante que la implementación sea lo más fiel posible al diseño original proporcionado por el equipo de diseño.
 11. Juego de fondos. La web debe tener una imagen de fondo, un patern proporcionado. Ademas: 
     - Cabezera: Fondo azul, borde fino, espaciado interior de 10px.
     - Encabezado de Primer nivel: texto blanco
