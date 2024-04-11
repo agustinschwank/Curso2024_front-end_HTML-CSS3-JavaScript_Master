@@ -43,4 +43,4 @@
 19. Maqueta con Floats: Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página, utilizando únicamente la técnica de floats. Ver Figura 10.
 20. Uso de Flexbox y Grid: Crea la misma web del ejercicio anterior, esta vez utilizando Flexbox y Grid según sea conveniente.
 21. Aplicación de Bordes Redondeados: Basándote en el ejercicio anterior, aplica bordes redondeados de 50px en la esquina superior derecha y en la esquina inferior izquierda. Consulta la Figura 11.
-22. Maqueta la Propuesta de la Figura 12.
+22. Maqueta la Propuesta de la Figura 12. Nota: no se puede utilizar floats.
