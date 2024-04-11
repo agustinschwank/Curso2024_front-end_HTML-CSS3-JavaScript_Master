@@ -26,24 +26,24 @@
     - Encabezado de Primer Nivel: "Roboto" con grosor 800.
     - Encabezado de Tercer Nivel: "Open Sans".
 10. Se nos ha pedido maquetar un buscador de hoteles basándonos en un diseño de la Figura 4. Es importante que la implementación sea lo más fiel posible al diseño original proporcionado por el equipo de diseño.
-11. Juego de fondos. La web debe tener una imagen de fondo, un patern proporcionado. Ademas: 
-    - Cabezera: Fondo azul, borde fino, espaciado interior de 10px.
-    - Encabezado de Primer nivel: texto blanco
-    - encabezado de Tecer niveL: borde 3 veces mas grueso y de color verde, fondo tomate, margen interior de 10px y texto blanco
-12. El proyecto debe verse como en el diseño de la Fig. 5 y el texto de mayor tamaño deberá ir rotando y mostrar diferentes frases.
-13. Observe la Fig. 6 y modifica los textos de la siguiente forma:
-    - H1: El texto debe estar centrado, con una separación entre líneas de 50px y espacio de letras de 40px.
-    - H3: El texto deberá tener un espacio de 20px entre palabra y palabra, el texto deberá estar centrado.
-    - P: El texto deberá estar justificado, todo en mayúsculas y con un espacio de 30px en la primera frase de cada párrafo.
-14. Maquete el cronometro de la Fig. 7.
-15. Crea una web con 2 cajas unicas e irrepetibles. Cada caja debe tener 400px X 400px. Arial, exterior e interior 20px. Una de color azul, la otra de marron. Los textos internos deben estar centrado orizontal y verticalmente con un tamaño de letra de 20px.
-16. Maqueta el sitio de la Fig. 8 (Nota: es un video no una imagen, que seara proporcinado)
-17. Se nos encargo y solicito especificamente crear una web, esto debe de contener 8 articulos, de los cuales debe tener 4 articulos por fila. Ademas se nos expreso que por motivos de la compania la no utilizacion de flexbox o grid.
-18. Maqueta lo mas parecido posible la card de la figura 9.
-19. Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página. Solo puedes utilizar FLOATS. Fig. 10.
-20. Cree la misma web que el el ejercicio anterior, en esta ocacion podra utilizar flexbox y grid segun sea conveniente.
-21. Basándose en el ejercicio anterior (cree una copia del mismo), aplique bordes redondeados de 50px a la esquina superior derecha y a la esquina inferior izquierda. Observe la imagen Fig. 11.
-22. Maquete la propuesta ofrecida en la Fig. 12.
+11. Juego de Fondos: La página web debe tener una imagen de fondo siguiendo un patrón proporcionado. Además: 
+    - Cabecera: Fondo azul y borde fino, con un espaciado interior de 10px.
+    - Encabezado de Primer Nivel: Texto en blanco.
+    - Encabezado de Tercer Nivel: Borde tres veces más grueso y de color verde, fondo color tomate, margen interior de 10px y texto en blanco.
+12. Rotación de Texto: El proyecto debe replicar el diseño de la Figura 5, incluyendo un texto de gran tamaño que rote mostrando diferentes frases.
+13. Modificación de Textos en la Figura 6:
+    - H1: Texto centrado, con separación entre líneas de 50px y espaciado de letras de 40px.
+    - H3: Texto con un espacio de 20px entre palabras y centrado.
+    - P: Texto justificado, en mayúsculas, con un espacio inicial de 30px en la primera frase de cada párrafo.
+14. Maquetar el Cronómetro de la Figura 7.
+15. Cajas Únicas: Crea una web con dos cajas de dimensiones 400px x 400px cada una. La tipografía debe ser Arial, con márgenes interiores y exteriores de 20px. Una caja será azul y la otra marrón. Los textos internos deben estar centrados horizontal y verticalmente con un tamaño de letra de 20px.
+16. Maqueta el Sitio de la Figura 8: Nota: se utilizará un video, no una imagen, que será proporcionado.
+17. Creación de una Web sin Flexbox ni Grid: Se requiere una web con 8 artículos, distribuidos en dos filas de 4 artículos cada una, sin utilizar Flexbox ni Grid.
+18. Maqueta la Card de la Figura 9.
 
+19. Maqueta con Floats: Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página, utilizando únicamente la técnica de floats. Ver Figura 10.
 
+20. Uso de Flexbox y Grid: Crea la misma web del ejercicio anterior, esta vez utilizando Flexbox y Grid según sea conveniente.
 
+21. Aplicación de Bordes Redondeados: Basándote en el ejercicio anterior, aplica bordes redondeados de 50px en la esquina superior derecha y en la esquina inferior izquierda. Consulta la Figura 11.
+22. Maqueta la Propuesta de la Figura 12.
