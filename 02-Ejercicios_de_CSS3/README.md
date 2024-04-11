@@ -42,4 +42,5 @@
 18. Maqueta lo mas parecido posible la card de la figura 9.
 19. Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página. Solo puedes utilizar FLOATS. Fig. 10.
 20. Cree la misma web que el el ejercicio anterior, en esta ocacion podra utilizar flexbox y grid segun sea conveniente.
-21. Basándose en el ejercicio anterior (cree una copia del mismo), aplique bordes redondeados de 50px a la esquina superior derecha y a la esquina inferior izquierda. Observe la imagen Fig. 11
+21. Basándose en el ejercicio anterior (cree una copia del mismo), aplique bordes redondeados de 50px a la esquina superior derecha y a la esquina inferior izquierda. Observe la imagen Fig. 11.
+22. Maquete la propuesta ofrecida en la Fig. 12.
