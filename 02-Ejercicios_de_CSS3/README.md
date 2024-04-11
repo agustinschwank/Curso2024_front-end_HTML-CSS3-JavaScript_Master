@@ -36,3 +36,6 @@
     - H3: El texto deberá tener un espacio de 20px entre palabra y palabra, el texto deberá estar centrado.
     - P: El texto deberá estar justificado, todo en mayúsculas y con un espacio de 30px en la primera frase de cada párrafo.
 14. Maquete el cronometro de la Fig. 7
+15. Crea una web con 2 cajas unicas e irrepetibles. Cada caja debe tener 400px X 400px. Arial, exterior e interior 20px. Una de color azul, la otra de marron. Los textos internos deben estar centrado orizontal y verticalmente con un tamaño de letra de 20px.
+16. Maqueta el sitio de la Fig. 8 (Nota: es un video no una imagen, que seara proporcinado)
+17. Se nos encargo y solicito especificamente crear una web, esto debe de contener 8 articulos, de los cuales debe tener 4 articulos por fila. Ademas se nos expreso que por motivos de la compania la no utilizacion de flexbox o grid.
