@@ -41,3 +41,4 @@
 17. Se nos encargo y solicito especificamente crear una web, esto debe de contener 8 articulos, de los cuales debe tener 4 articulos por fila. Ademas se nos expreso que por motivos de la compania la no utilizacion de flexbox o grid.
 18. Maqueta lo mas parecido posible la card de la figura 9.
 19. Crea una web que tenga cabecera, contenido principal, barra lateral y pie de página. Solo puedes utilizar FLOATS. Fig. 10.
+20. Cree la misma web que el el ejercicio anterior, en esta ocacion podra utilizar flexbox y grid segun sea conveniente.
