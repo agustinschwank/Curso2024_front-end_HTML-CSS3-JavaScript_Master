@@ -44,3 +44,9 @@
 20. Uso de Flexbox y Grid: Crea la misma web del ejercicio anterior, esta vez utilizando Flexbox y Grid según sea conveniente.
 21. Aplicación de Bordes Redondeados: Basándote en el ejercicio anterior, aplica bordes redondeados de 50px en la esquina superior derecha y en la esquina inferior izquierda. Consulta la Figura 11.
 22. Maqueta la Propuesta de la Figura 12. Nota: no se puede utilizar floats.
+23. Maqueta estos botones Figura 12, y que cumplan:
+    - Transición elegante: Al pasar el ratón sobre los botones, estos deben mostrar una transición suave.
+    - Primer botón: Debe desplegar hacia arriba el texto “Subir video” cuando el ratón pase por encima.
+    - Segundo botón: Debe mostrar un efecto de “expansión de aura”.
+24. Maquete la pagina de registro de un sitio web, para eso se nos a proporcionado un diseño. Figura 13.
+    

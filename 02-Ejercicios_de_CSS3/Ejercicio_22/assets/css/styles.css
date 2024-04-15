@@ -1,0 +1,149 @@
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEAA0;
+}
+
+.layout__main {
+    width: 50rem;
+}
+
+
+.main__header {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    background-color: #3BC0FF;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.header__subtitle {
+    font-size: 1.6rem;
+}
+
+.header__title {
+    font-size: 3rem;
+}
+
+.main__graphic {
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.graphic__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+.graphic__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1.3rem;
+    margin-bottom: 0.7rem;
+}
+
+.graphic__bar {
+    flex-basis: calc(100% / 7);
+    height: 10rem;
+    background-color: #3BC0FF;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+
+.graphic__bar--1 {
+    height: 10rem;
+    background-color: #596dc2;
+}
+
+.graphic__bar--2 {
+    height: 7rem;
+}
+
+.graphic__bar--3 {
+    height: 2rem;
+}
+
+.graphic__bar--4 {
+    height: 1rem;
+}
+
+.graphic__bar--5 {
+    height: 8rem;
+}
+
+.graphic__bar--6 {
+    height: 4rem;
+}
+
+.graphic__bar--7 {
+    height: 3rem;
+}
+
+.grapich__range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.range__item {
+    flex-basis: calc(100% / 7);
+    text-align: center;
+    color: #cccccc;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.graphic__results {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+.results__subtitle {
+    font-size: 1.4rem;
+    color: #9e9e9e;
+}
+
+.results__title {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4rem;
+}

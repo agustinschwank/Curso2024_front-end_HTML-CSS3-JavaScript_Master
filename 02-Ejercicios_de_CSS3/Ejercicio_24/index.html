@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 24</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
+
+</head>
+<body>
+    <div class="layout">
+        <main class="layout__main">
+            <section class="main__left">
+                <ol class="step__list">
+                    <li class="step__item">
+                        <div class="step__content-number">
+                            <span class="step__number">1</span>
+                        </div>
+                        <div class="step__content">
+                            <span class="step__title">Paso 1</span>
+                            <span class="step__description">Crea tu cuenta</span>
+                        </div>
+                    </li>
+                    <li class="step__item">
+                        <div class="step__content-number">
+                            <span class="step__number">2</span>
+                        </div>
+                        <div class="step__content">
+                            <span class="step__title">Paso 2</span>
+                            <span class="step__description">Direccion</span>
+                        </div>
+                    </li>
+                    <li class="step__item">
+                        <div class="step__content-number">
+                            <span class="step__number">3</span>
+                        </div>
+                        <div class="step__content">
+                            <span class="step__title">Paso 3</span>
+                            <span class="step__description">Forma de pago</span>
+                        </div>
+                    </li>
+                    <li class="step__item">
+                        <div class="step__content-number">
+                            <span class="step__number">4</span>
+                        </div>
+                        <div class="step__content">
+                            <span class="step__title">Paso 4</span>
+                            <span class="step__description">Confirmacion</span>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+            <section class="main__right">
+                <header class="main__header">
+                    <h1 class="header__title">Registrar</h1>
+                    <p class="header__subtitle">Crea una cuenta para poder seguir tu compra</p>
+                </header>
+                <form class="main__form">
+                    <div class="form__control">
+                        <label class="control__label" for="name">Nombre</label>
+                        <input type="text" class="control__input" name="name" id="name" placeholder="Introduce tu nombre"/>
+                    </div>
+                    <div class="form__control">
+                        <label class="control__label" for="lastname">Apellido</label>
+                        <input type="text" class="control__input" name="lastname" id="lastname" placeholder="Introduce tu apellido"/>
+                    </div>
+                    <div class="form__control">
+                        <label class="control__label" for="email">E-mail</label>
+                        <input type="email" class="control__input" name="email" id="email" placeholder="Introduce tu email"/>
+                    </div>
+                    <div class="form__control">
+                        <label class="control__label" for="date">Fecha de nacimiento</label>
+                        <input type="date" class="control__input" name="date" id="date"/>
+                    </div>
+                    <div class="form__control">
+                        <label class="control__label" for="pass">Contraseña</label>
+                        <input type="password" class="control__input" name="pass" id="pass" placeholder="Introduce tu contraseña"/>
+                    </div>
+                    <div class="form__control">
+                        <input type="submit" class="form__btn" value="Siguiente"/>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
