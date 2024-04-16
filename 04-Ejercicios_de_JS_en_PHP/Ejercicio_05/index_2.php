@@ -1,4 +1,13 @@
-<?php require_once('./php/code.php');?>
+<?php 
+
+if(file_exists('./php/code.php')) {
+    require_once ('./php/code.php');
+} else {
+    echo('Falta un archivo critico: <b>code.php</b>');
+    die();
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="es">
