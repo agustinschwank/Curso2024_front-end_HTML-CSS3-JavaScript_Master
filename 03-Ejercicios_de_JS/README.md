@@ -17,3 +17,6 @@
     - Muestra todos los valores de las variables en la pantalla.
     - Para mostrar los elementos del arreglo modelos, utiliza un método que no requiera hacerlo manualmente (como un bucle o una función).
 3. Un automóvil se desplaza a toda velocidad por una carretera a 135 km/h. La velocidad máxima permitida es de 60 km/h. Si la velocidad supera la permitida, se debe informar al conductor mediante la consola. En caso contrario, indicar que está dentro de los límites permitidos.
+4. Crea un switch para determinar si un sueldo es bajo, medio o alto.
+5. Desarrollar las tablas de multiplicar como se muestra en la figura. 1.
+6. Muestra los numero del 1 al 177 directamente en la pagina, sin utilizar el DOM ni un fichero aparte. No podra utilizar bucle for.
