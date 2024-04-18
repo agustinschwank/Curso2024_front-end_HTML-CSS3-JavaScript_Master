@@ -20,3 +20,4 @@
 4. Crea un switch para determinar si un sueldo es bajo, medio o alto.
 5. Desarrollar las tablas de multiplicar como se muestra en la figura. 1.
 6. Muestra los numero del 1 al 177 directamente en la pagina, sin utilizar el DOM ni un fichero aparte. No podra utilizar bucle for.
+7. Solicitar a un usuario que ingrese su año de nacimiento (mediante una ventana emergente). Calcula cuantos años tiene. Si nacio antes de 1910, solicita nuevo año.
