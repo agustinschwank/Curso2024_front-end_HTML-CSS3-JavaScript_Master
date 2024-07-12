@@ -25,3 +25,4 @@
 9. Desarrolle un programa que sume una cantidad indefinida de numeros pasados por parametro. Muestre el resultado en un encavezado de sugundo nivel. Ademas se deven mostrar los numeros que se an utilizado para el resultado debajo, en un parrafo.
 10. Solicitale al usuario una palabra. Cree una funcion, que muestre esa palabra en mayusculas y la cantidad de letras que posee.
 11. Dada una frase, crea una funcion que remplase una palabra en ella. La palabra buscar y remplazo deveran ser solicitadas al usuario.
+12. Crear una funcion que recorra y muestre en parrafos un arreglo de animales.
