@@ -26,3 +26,13 @@
 10. Solicitale al usuario una palabra. Cree una funcion, que muestre esa palabra en mayusculas y la cantidad de letras que posee.
 11. Dada una frase, crea una funcion que remplase una palabra en ella. La palabra buscar y remplazo deveran ser solicitadas al usuario.
 12. Crear una funcion que recorra y muestre en parrafos un arreglo de animales.
+13. Un concesionario tiene tres marcas de automoviles y tres modelos distintos por cada marca. Crea una funcion que los muestre.
+14. Un empleado quiere ingresar su sueldo, para saber cuales son los sueltos iguales y mayores al suyo dentro de la empresa.
+    - Crea un programa que dado un listado de sueldos, busque e informe los iguales y superiores al ingresado.
+    - Los sueldos se deberan mostrar ordenados de forma ascendente y mostrados por consola.
+15. Realiza lo solicitado en "Recursos de Ejercicio 15", en la capeta de recursos de JS.
+16. Muestra por pantalla lo siguiente
+    - Altura y anchura de la pantalla.
+    - Muestra la URL de la web en la que te encuentras.
+    - Al ingresar a la web, que se cargue en una nueva pestaña la url "https://misitio.com".
+17. Utiliza los estilos del Ejercicio 15, y realiza lo solicitado en el pdf ubicado en la carpeta de recursos de JS.
