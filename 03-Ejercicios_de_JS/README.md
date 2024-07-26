@@ -36,3 +36,4 @@
     - Muestra la URL de la web en la que te encuentras.
     - Al ingresar a la web, que se cargue en una nueva pestaña la url "https://misitio.com".
 17. Utiliza los estilos del Ejercicio 15, y realiza lo solicitado en el pdf ubicado en la carpeta de recursos de JS.
+18. Realiza lo solicitado en el PDF "Recursos de Ejercicio 18", en la carpeta correspondiente a recursos de JS.

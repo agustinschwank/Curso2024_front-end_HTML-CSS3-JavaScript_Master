@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
+    
+</head>
+<body>
+
+    <div class="layout">
+
+        <section class="layout__content-form">
+            <form class="form__create">
+                <div class="form__group">
+                    <label for="title" class="form__label">Titulo</label>
+                    <input type="text" class="form__input" id="title" name="title"/>
+                </div>
+                <div class="form__group">
+                    <label for="subtitle" class="form__label">Subtitle</label>
+                    <input type="text" class="form__input" id="subtitle" name="subtitle"/>
+                </div>
+                <div class="form__group">
+                    <label for="description" class="form__label">Decripcion</label>
+                    <textarea name="description" class="from__textarea" id="description" rows="5"></textarea>
+                </div>
+                <input class="form__btn" type="submit" value="ENVIAR" id="send"/>
+            </form>
+        </section>
+
+        <section class="layout__articles">
+            <article class="layout__card">
+                <header class="card__header">
+                    <p class="header__author">Marina Gonzales 1</p>
+                </header>
+                <div class="card__content">
+                    <h2 class="content__title">Demo Box</h2>
+                    <p class="content__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorum molestiae illo necessitatibus asperiores.</p>
+                    <button class="content__btn">Cambiar estilos</button>
+                </div>
+            </article>
+            <article class="layout__card">
+                <header class="card__header">
+                    <p class="header__author">Marina Gonzales 2</p>
+                </header>
+                <div class="card__content">
+                    <h2 class="content__title">Demo Box</h2>
+                    <p class="content__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorum molestiae illo necessitatibus asperiores.</p>
+                    <button class="content__btn">Cambiar estilos</button>
+                </div>
+            </article>
+            <article class="layout__card">
+                <header class="card__header">
+                    <p class="header__author">Marina Gonzales 3</p>
+                </header>
+                <div class="card__content">
+                    <h2 class="content__title">Demo Box</h2>
+                    <p class="content__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorum molestiae illo necessitatibus asperiores.</p>
+                    <button class="content__btn">Cambiar estilos</button>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <script src="./assets/js/main.js" defer></script>
+</body>
+</html>

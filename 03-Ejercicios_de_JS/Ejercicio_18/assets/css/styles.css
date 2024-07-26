@@ -1,0 +1,76 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    background-color: #EBEFFA;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout__content-crono {
+    margin-bottom: 1.5rem;
+}
+
+.crono__content {
+    width: 25rem;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.layout__content-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #9cb5fc;
+    font-weight: 600;
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn__start {
+    background-color: #fc5757;
+}
+
+
+.btn__start:hover {
+    background-color: #7fc07f;
+}
+
+.btn__stop:hover {
+    background-color: #888888;
+}

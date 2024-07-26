@@ -1,0 +1,136 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+    padding: 3rem;
+}
+
+.layout__content-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.form__create {
+    min-width: 60rem;
+}
+
+.form__group {
+    margin: 1rem 0rem;
+}
+
+.form__label {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.form__input,
+.from__textarea {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    box-shadow: 0px 0px 6px #c5c5c5 inset;
+    color: #8f8f8f;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    resize: none;
+}
+
+.form__btn {
+    display: inline-block;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    background-color: #0b58ca;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+.form__btn:hover {
+    background-color: #0D6EFD;
+}
+
+.layout__articles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.layout__card{
+    width: 30rem;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card__header{
+    border-bottom: 1px solid #0b58ca;
+}
+
+.header__author{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.card__content{
+    padding: 1.5rem;
+}
+
+.content__title{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.content__description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.content__btn{
+    border: 1px solid #0b58ca;
+    background-color: transparent;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
