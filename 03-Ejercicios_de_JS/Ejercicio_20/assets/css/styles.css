@@ -1,0 +1,36 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+    padding: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.content__title {
+    font-family: Montserrat, sans-serif;
+    color: #5085db;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.content__date,
+.content__time {
+    color: #083d91;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.content__time {
+    font-size: 4rem;
+    font-weight: 600;
+}
