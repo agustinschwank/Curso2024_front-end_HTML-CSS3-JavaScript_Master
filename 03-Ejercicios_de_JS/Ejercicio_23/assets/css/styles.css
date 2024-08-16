@@ -1,0 +1,84 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+.layout {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    position: relative;
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+
+.main__input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1.5rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: transparent;
+}
+
+.main__icons {
+    flex-basis: 10%;
+}
+
+.icon_check,
+.icon_xmark {
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 1.3rem;
+    font-size: 3rem;
+    opacity: 1;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+
+.icon_check {
+    color: #0bd815;
+    opacity: 0;
+}
+
+.icon_xmark {
+    color: #f83535;
+    opacity: 0;
+}
