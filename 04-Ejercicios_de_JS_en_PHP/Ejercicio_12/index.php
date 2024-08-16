@@ -2,7 +2,6 @@
 
 $animals = ["Perro", "Gato", "Tortuga", "Elefante", "Tigre"];
 
-
 ?>
 
 
@@ -23,7 +22,5 @@ $animals = ["Perro", "Gato", "Tortuga", "Elefante", "Tigre"];
     <?php } ?> 
 
 
-
-    <script src="./assets/js/main.js" defer></script>
 </body>
 </html>
