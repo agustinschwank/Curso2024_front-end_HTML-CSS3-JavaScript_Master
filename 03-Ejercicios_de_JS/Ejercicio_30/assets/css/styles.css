@@ -1,0 +1,94 @@
+html{
+    font-size: 10px;
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.layout__main {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__content {
+    width: 60%;
+}
+
+.main__title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+
+.main__socials {
+    width: 100%;
+    background-color: #37384e;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 4rem 6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social__item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.fa-brands {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-twitter {
+    color: #3ea2ff;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    color: #4400ff;
+}
+
+.social__number {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
