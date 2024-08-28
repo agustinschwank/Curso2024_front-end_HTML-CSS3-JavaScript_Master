@@ -1,0 +1,81 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.slider__item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    background-color: bisque;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn__prev,
+.btn__next {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn__prev > .fa-solid,
+.btn__next > .fa-solid {
+    color: #2277ff;
+    font-size: 10rem;
+}
+
+.btn__prev > .fa-solid:hover,
+.btn__next > .fa-solid:hover {
+    color: #66d2f3;
+}
+
