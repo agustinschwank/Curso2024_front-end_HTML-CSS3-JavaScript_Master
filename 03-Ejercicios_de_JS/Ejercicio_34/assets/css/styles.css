@@ -1,0 +1,140 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 600px;
+    border: 1px solid #cccccc;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    overflow: hidden;
+}
+
+.main__menssages {
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.menssages__menssage {
+    margin-top: 1rem;
+    padding: 1rem;
+    max-width: 50%;
+    border: 1px solid #5a5ad0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.menssage__user {
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-bottom: 2px solid #08084d;
+    line-height: 2;
+}
+
+.menssage__text {
+    line-height: 2;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.form__input {
+    width: 90%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+
+.fom__send {
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: #53affa;
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.fom__send:hover {
+    background-color: #037be4;
+}
+
+.layout__loader {
+    display: block;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    clip: rect(0, 10rem, 10rem, 5rem);
+    animation: load 1s linear infinite;
+    -webkit-animation: load 1s linear infinite;
+}
+
+.loader__load {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border: 10px solid #d2e432;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;   
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
