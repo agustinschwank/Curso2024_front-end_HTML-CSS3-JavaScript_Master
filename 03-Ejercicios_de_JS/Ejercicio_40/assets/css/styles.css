@@ -1,0 +1,41 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    margin-bottom: 5rem;
+}
+
+.main__stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.stars__icon {
+    font-size: 7rem;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.stars__icon--active {
+    color: yellow;
+}
