@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 48</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="../../00-Enunciados_Recursos_Documentos/Recursos para los Ejercicios en HTML5/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
+
+    <script src="./assets/js/main.js" defer ></script>
+</head>
+<body>
+
+    <div class="layout">
+        <div class="layout__main">
+            <h1 class="main__title">Generador de Contraseñas</h1>
+
+            <div class="main__generate">
+                <span class="generate__mail">defaultPasword</span>
+                <i class="generate__icon fa-solid fa-copy"></i>
+            </div>
+
+            <form class="main__form">
+                <div class="form__ranger">
+                    <div class="ranger__title">
+                        <span class="ranger__text">Longitud</span>
+                        <span class="ranger__number">5</span>
+                    </div>
+                    <input class="ranger__range" type="range" value="5" min="0" max="15" />
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" name="lowercase" id="lowercase" />
+                    <label for="lowercase" class="control__label">Con letras en Minusculas</label>
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" name="uppercase" id="uppercase" />
+                    <label for="uppercase" class="control__label">Con letras en Mayusculas</label>
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" name="number" id="number" />
+                    <label for="number" class="control__label">Con Numeros</label>
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" name="simbol" id="simbol" />
+                    <label for="simbol" class="control__label">Con Simbolos</label>
+                </div>
+
+                <input type="submit" class="control__submit" value="crear"/>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
