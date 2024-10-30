@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 05</title>
+
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
+
+    
+    <script src="./assets/js/main.js" defer></script>
+    
+</head>
+<body>
+    
+    <div class="layout">
+        <div class="layout__form">
+            <form class="form_container" method="post" action="#" id="form">
+
+                <label for="name" class="form__label">Nombre</label>
+                <input type="text" class="form__input" name="name" id="name"/>
+
+                <label for="lastname" class="form__label">Apellido</label>
+                <input type="text" class="form__input" name="lastname" id="lastname"/>
+
+                <label for="years" class="form__label">Edad</label>
+                <input type="number" class="form__input" name="years" id="years"/>
+
+                <input type="submit" class="form__btn" value="ENVIAR" id="submit"/>
+            </form>
+        </div>
+        <div class="layout__list">
+            <h2>Datos enviados</h2>
+            <ul id="list">
+                <li>Nombre: <span>--</span></li>
+                <li>Apellido: <span>--</span></li>
+                <li>Edad: <span>-- años</span></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

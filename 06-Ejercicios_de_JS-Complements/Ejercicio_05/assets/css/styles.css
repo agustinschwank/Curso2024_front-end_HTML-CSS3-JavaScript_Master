@@ -1,0 +1,45 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    color: #fff;
+    max-width: 1200px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.form__label {
+    margin-left: 0.3rem;
+}
+
+.form__input {
+    width: 100%;
+    background-color: #474f5c;
+}
+
+.form__btn {
+    background-color: #3a5683 !important;
+    margin-top: 2.5rem;
+}
+
+.form__btn:hover {
+    background-color: #1453b8 !important;
+}
+
+.layout__list > h2 {
+    text-align: center;
+}
+
+.layout__list > ul {
+    padding: 2rem;
+    background-color: #474f5c;
+    border-radius: 1rem;
+}
